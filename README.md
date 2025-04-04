@@ -6,5 +6,3 @@
 
 [steam-badge]: https://img.shields.io/static/v1?label=Steam&message=Download&color=lightgrey&logo=steam&style=for-the-badge
 [steam-link]: https://steamcommunity.com/sharedfiles/filedetails/?id=3302255276
-
-<hr>
