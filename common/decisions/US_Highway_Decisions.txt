@@ -1,0 +1,551 @@
+ERB_Southwest_Commonwealth_US_Highways_Category = {
+	ERB_US_Highway_50 = { ##CALIFRONIA/NEVADA
+		icon = GFX_US50
+		fire_only_once = yes
+		available = {
+			always = no
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 135
+				state = 584
+				state = 285
+				state = 160
+				state = 284
+				state = 327
+				state = 462
+				state = 485
+				state = 219
+				state = 286
+				state = 581
+				state = 270
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		fixed_random_seed = no
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision ERB_US_Highway_50"
+		}
+		days_remove = 60
+	}
+	ERB_US_Highway_50_Phase_1 = {
+		icon = political_actions
+		fire_only_once = yes
+		visible = {
+			has_completed_focus = enc_USHighways
+		}
+		available = {
+			NOT = { has_country_flag = repairing_segment_Northwest }
+			135 = {
+				owns_or_subject_of = yes
+			}
+			584 = {
+				owns_or_subject_of = yes
+			}
+			285 = {
+				owns_or_subject_of = yes
+			}
+			135 = {
+				controls_or_subject_of = yes
+			}
+			584 = {
+				controls_or_subject_of = yes
+			}
+			285 = {
+				controls_or_subject_of = yes
+			}
+			set_temp_variable = {
+				caps_diff = -50
+			}
+			caps_cost_trigger = yes
+		}
+		custom_cost_trigger = {
+			set_temp_variable = { temp_cap_cost = 50 }
+			check_variable = {
+				caps_number_display > 0
+			}
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 135
+				state = 584
+				state = 285
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		custom_cost_text = "caps_decisions_cost_text"
+		cost = 50
+		fixed_random_seed = no
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision ERB_US_Highway_101_Phase_3"
+			set_temp_variable = { caps_to_add = -100 }
+			add_caps = yes
+			set_country_flag = repairing_segment_Northwest
+		}
+		days_remove = 60
+		remove_effect = {
+			clr_country_flag = repairing_segment_Northwest
+			set_country_flag = ERB_US_Highway_101_Phase_3_Completed
+			135 = {
+				add_dynamic_modifier = {
+					modifier = fixed_us_highway
+				}
+			}
+			584 = {
+				add_dynamic_modifier = {
+					modifier = fixed_us_highway
+				}
+			}
+			285 = {
+				add_dynamic_modifier = {
+					modifier = fixed_us_highway
+				}
+			}
+		}
+	}
+	ERB_US_Highway_101 = { ##CALIFRONIA
+		icon = GFX_US101
+		fire_only_once = yes
+		available = {
+			always = no
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 350
+				state = 396
+				state = 258
+				state = 64
+				state = 558
+				state = 312
+				state = 539
+				state = 163
+				state = 474
+				state = 216
+				state = 548
+				state = 340
+				state = 39
+				state = 239
+				state = 32
+				state = 86
+				state = 358
+				state = 186
+				state = 192
+				state = 274
+				state = 221
+				state = 556
+				state = 424
+				state = 609
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		fixed_random_seed = no
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision ERB_US_Highway_101"
+		}
+		days_remove = 60
+	}
+	ERB_US_Highway_101_Phase_1 = {
+		icon = political_actions
+     	fire_only_once = yes
+		visible = {
+			has_completed_focus = enc_USHighways
+		}
+		available = {
+			NOT = { has_country_flag = repairing_segment_Southwest }
+			350 = {
+				owns_or_subject_of = yes
+			}
+			396 = {
+				owns_or_subject_of = yes
+			}
+			258 = {
+				owns_or_subject_of = yes
+			}
+			64 = {
+				owns_or_subject_of = yes
+			}
+			350 = {
+				controls_or_subject_of = yes
+			}
+			396 = {
+				controls_or_subject_of = yes
+			}
+			258 = {
+				controls_or_subject_of = yes
+			}
+			64 = {
+				controls_or_subject_of = yes
+			}
+			set_temp_variable = {
+				caps_diff = -100
+			}
+			caps_cost_trigger = yes
+		}
+		custom_cost_trigger = {
+			set_temp_variable = { temp_cap_cost = 100 }
+			check_variable = {
+				caps_number_display > 0
+			}
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 350
+				state = 396
+				state = 258
+				state = 64
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		custom_cost_text = "caps_decisions_cost_text"
+		cost = 50
+		fixed_random_seed = no
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision ERB_US_Highway_101_Phase_1"
+			set_temp_variable = { caps_to_add = -100 }
+			add_caps = yes
+			set_country_flag = repairing_segment_Southwest
+		}
+   	    days_remove = 60
+       	remove_effect = {
+			clr_country_flag = repairing_segment_Southwest
+			set_country_flag = ERB_US_Highway_101_Phase_1_Completed
+			350 = {
+				add_dynamic_modifier = {
+					modifier = fixed_us_highway
+				}
+			}
+			396 = {
+				add_dynamic_modifier = {
+					modifier = fixed_us_highway
+				}
+			}
+			258 = {
+				add_dynamic_modifier = {
+					modifier = fixed_us_highway
+				}
+			}
+			64 = {
+				add_dynamic_modifier = {
+					modifier = fixed_us_highway
+				}
+			}
+		}
+	}
+	ERB_US_Highway_101_Phase_2 = {
+		icon = political_actions
+		fire_only_once = yes
+		visible = {
+			has_completed_focus = enc_USHighways
+		}
+		available = {
+			NOT = { has_country_flag = repairing_segment_Southwest }
+			558 = {
+				owns_or_subject_of = yes
+			}
+			312 = {
+				owns_or_subject_of = yes
+			}
+			539 = {
+				owns_or_subject_of = yes
+			}
+			163 = {
+				owns_or_subject_of = yes
+			}
+			474 = {
+				owns_or_subject_of = yes
+			}
+			558 = {
+				controls_or_subject_of = yes
+			}
+			312 = {
+				controls_or_subject_of = yes
+			}
+			539 = {
+				controls_or_subject_of = yes
+			}
+			163 = {
+				controls_or_subject_of = yes
+			}
+			474 = {
+				controls_or_subject_of = yes
+			}
+			set_temp_variable = {
+				caps_diff = -100
+			}
+			caps_cost_trigger = yes
+		}
+		custom_cost_trigger = {
+			set_temp_variable = { temp_cap_cost = 100 }
+			check_variable = {
+				caps_number_display > 0
+			}
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 558
+				state = 312
+				state = 539
+				state = 163
+				state = 474
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		custom_cost_text = "caps_decisions_cost_text"
+		cost = 50
+		fixed_random_seed = no
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision ERB_US_Highway_101_Phase_2"
+			set_temp_variable = { caps_to_add = -100 }
+			add_caps = yes
+			set_country_flag = repairing_segment_Southwest
+		}
+		days_remove = 60
+		remove_effect = {
+			clr_country_flag = repairing_segment_Southwest
+			set_country_flag = ERB_US_Highway_101_Phase_2_Completed
+			558 = {
+				add_dynamic_modifier = {
+					modifier = fixed_us_highway
+				}
+			}
+			312 = {
+				add_dynamic_modifier = {
+					modifier = fixed_us_highway
+				}
+			}
+			539 = {
+				add_dynamic_modifier = {
+					modifier = fixed_us_highway
+				}
+			}
+			163 = {
+				add_dynamic_modifier = {
+					modifier = fixed_us_highway
+				}
+			}
+			474 = {
+				add_dynamic_modifier = {
+					modifier = fixed_us_highway
+				}
+			}
+		}
+	}
+	ERB_US_Highway_101_Phase_3 = {
+		icon = political_actions
+		fire_only_once = yes
+		visible = {
+			has_completed_focus = enc_USHighways
+		}
+		available = {
+			NOT = { has_country_flag = repairing_segment_Northwest }
+			216 = {
+				owns_or_subject_of = yes
+			}
+			548 = {
+				owns_or_subject_of = yes
+			}
+			340 = {
+				owns_or_subject_of = yes
+			}
+			39 = {
+				owns_or_subject_of = yes
+			}
+			239 = {
+				owns_or_subject_of = yes
+			}
+			216 = {
+				controls_or_subject_of = yes
+			}
+			548 = {
+				controls_or_subject_of = yes
+			}
+			340 = {
+				controls_or_subject_of = yes
+			}
+			39 = {
+				controls_or_subject_of = yes
+			}
+			239 = {
+				controls_or_subject_of = yes
+			}
+			set_temp_variable = {
+				caps_diff = -100
+			}
+			caps_cost_trigger = yes
+		}
+		custom_cost_trigger = {
+			set_temp_variable = { temp_cap_cost = 100 }
+			check_variable = {
+				caps_number_display > 0
+			}
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 216
+				state = 548
+				state = 340
+				state = 39
+				state = 239
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		custom_cost_text = "caps_decisions_cost_text"
+		cost = 50
+		fixed_random_seed = no
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision ERB_US_Highway_101_Phase_3"
+			set_temp_variable = { caps_to_add = -100 }
+			add_caps = yes
+			set_country_flag = repairing_segment_Northwest
+		}
+		days_remove = 60
+		remove_effect = {
+			clr_country_flag = repairing_segment_Northwest
+			set_country_flag = ERB_US_Highway_101_Phase_3_Completed
+			216 = {
+				add_dynamic_modifier = {
+					modifier = fixed_us_highway
+				}
+			}
+			548 = {
+				add_dynamic_modifier = {
+					modifier = fixed_us_highway
+				}
+			}
+			340 = {
+				add_dynamic_modifier = {
+					modifier = fixed_us_highway
+				}
+			}
+			39 = {
+				add_dynamic_modifier = {
+					modifier = fixed_us_highway
+				}
+			}
+			239 = {
+				add_dynamic_modifier = {
+					modifier = fixed_us_highway
+				}
+			}
+		}
+	}
+}
+
+ERB_Northwest_Commonwealth_US_Highways_Category = {
+	ERB_US_Highway_199 = { ##CALIFRONIA/OREGON
+		icon = GFX_US199
+		fire_only_once = yes
+		available = {
+			always = no
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 239
+				state = 337
+				state = 600
+				state = 113
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		fixed_random_seed = no
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision ERB_US_Highway_199"
+		}
+		days_remove = 60
+	}
+	ERB_US_Highway_199_Phase_1 = {
+		icon = political_actions
+			fire_only_once = yes
+			visible = {
+				has_completed_focus = enc_USHighways
+				}
+		available = {
+			NOT = { has_country_flag = repairing_segment_Northwest }
+			239 = {
+				owns_or_subject_of = yes
+			}
+			337 = {
+				owns_or_subject_of = yes
+			}
+			600 = {
+				owns_or_subject_of = yes
+			}
+			113 = {
+				owns_or_subject_of = yes
+			}
+			239 = {
+				controls_or_subject_of = yes
+			}
+			337 = {
+				controls_or_subject_of = yes
+			}
+			600 = {
+				controls_or_subject_of = yes
+			}
+			113 = {
+				controls_or_subject_of = yes
+			}
+			set_temp_variable = {
+				caps_diff = -50
+			}
+			caps_cost_trigger = yes
+		}
+		custom_cost_trigger = {
+			set_temp_variable = { temp_cap_cost = 50 }
+			check_variable = {
+				caps_number_display > 0
+			}
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 239
+				state = 337
+				state = 600
+				state = 113
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+		custom_cost_text = "caps_decisions_cost_text"
+		cost = 50
+		fixed_random_seed = no
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision ERB_US_Highway_199_Phase_1"
+			set_temp_variable = { caps_to_add = -100 }
+			add_caps = yes
+			set_country_flag = repairing_segment_Northwest
+		}
+		days_remove = 60
+		remove_effect = {
+			clr_country_flag = repairing_segment_Northwest
+			set_country_flag = ERB_US_Highway_199_Phase_1_Completed
+			239 = {
+				add_dynamic_modifier = {
+					modifier = fixed_us_highway
+				}
+			}
+			337 = {
+				add_dynamic_modifier = {
+					modifier = fixed_us_highway
+				}
+			}
+			600 = {
+				add_dynamic_modifier = {
+					modifier = fixed_us_highway
+				}
+			}
+			113 = {
+				add_dynamic_modifier = {
+					modifier = fixed_us_highway
+				}
+			}
+		}
+	}
+}

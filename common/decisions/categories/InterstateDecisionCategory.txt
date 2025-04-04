@@ -1,0 +1,182 @@
+ERB_Western_Highway_Patrol_Category = {
+	icon = political_actions
+	picture = generic_political_actions
+	visible_when_empty = yes
+
+	visible = {
+		OR = {
+			AND = {
+				has_completed_focus = enc_Western_Highway_State_Patrol
+			}
+		}
+
+	}
+	priority = 1002
+}
+ERB_Eastern_Highway_Patrol_Category = {
+	icon = political_actions
+	picture = generic_political_actions
+	visible_when_empty = yes
+
+	visible = {
+		OR = {
+			AND = {
+				has_completed_focus = enc_Eastern_Highway_State_Patrol
+			}
+		}
+
+	}
+	priority = 1001
+}
+ERB_Texas_Interstate_Category = {
+	icon = political_actions
+	picture = generic_political_actions
+	visible_when_empty = yes
+
+	visible = {
+		OR = {
+			AND = {
+				has_completed_focus = enc_Interstate_Texas_unlock
+			}
+		}
+
+	}
+	priority = 1000
+}
+ERB_West_Coast_Interstate_1_Category = {
+	icon = political_actions
+	picture = generic_political_actions
+	visible_when_empty = yes
+
+	visible = {
+		OR = {
+			AND = {
+				has_completed_focus = enc_Interstate_West_Coast_unlock
+			}
+		}
+
+	}
+	priority = 999
+}
+ERB_West_Coast_Interstate_2_Category = {
+	icon = political_actions
+	picture = generic_political_actions
+	visible_when_empty = yes
+
+	visible = {
+		OR = {
+			AND = {
+				has_completed_focus = enc_Interstate_West_Coast_unlock
+			}
+		}
+
+	}
+	priority = 999
+}
+ERB_West_Coast_Interstate_Arizona_Category = {
+	icon = political_actions
+	picture = generic_political_actions
+	visible_when_empty = yes
+
+	visible = {
+		OR = {
+			AND = {
+				has_completed_focus = enc_Interstate_West_Coast_unlock
+			}
+		}
+
+	}
+	priority = 999
+}
+ERB_Mexico_Interstate_Category = {
+	icon = political_actions
+	picture = generic_political_actions
+	visible_when_empty = yes
+
+	visible = {
+		OR = {
+			AND = {
+				has_completed_focus = enc_Interstate_Mexico_unlock
+			}
+		}
+
+	}
+	priority = 998
+}
+ERB_North_Commonwealth_Interstate_Category = {
+	icon = political_actions
+	picture = generic_political_actions
+	visible_when_empty = yes
+
+	visible = {
+		OR = {
+			AND = {
+				has_completed_focus = enc_Interstate_North_Commonwealth_unlock
+			}
+		}
+
+	}
+	priority = 997
+}
+ERB_Eastern_Interstate_Category = {
+	icon = political_actions
+	picture = generic_political_actions
+	visible_when_empty = yes
+
+	visible = {
+		OR = {
+			AND = {
+				has_country_flag =  enc_Unlock_East_Interstate
+				has_completed_focus = enc_Interstate_East_Coast_unlock
+			}
+		}
+
+	}
+	priority = 996
+}
+ERB_Utah_Interstate_Category = {
+	icon = political_actions
+	picture = generic_political_actions
+	visible_when_empty = yes
+
+	visible = {
+		OR = {
+			AND = {
+				has_completed_focus =  enc_Interstate_Utah_unlock
+			}
+		}
+
+	}
+	priority = 995
+}
+ERB_Cascadia_Interstate_Category = {
+	icon = political_actions
+	picture = generic_political_actions
+	visible_when_empty = yes
+
+	visible = {
+		OR = {
+			AND = {
+				has_completed_focus =  enc_Interstate_Cascadia_unlock
+			}
+		}
+
+	}
+	priority = 995
+}
+ERB_Midwest_Interstate_Category = {
+	icon = political_actions
+	picture = generic_political_actions
+	visible_when_empty = yes
+
+	visible = {
+		OR = {
+			AND = {
+				has_country_flag =  enc_Unlock_Midwest_Interstate
+				has_completed_focus =  enc_Interstate_Midwest_unlock
+			}
+		}
+
+	}
+	priority = 994
+}

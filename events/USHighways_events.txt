@@ -1,0 +1,129 @@
+add_namespace = ushighway
+
+#Test
+country_event = {
+	id = ushighway.1
+	title = ushighway.1.t
+	desc = ushighway.1.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = ERB
+	}
+
+	##answer
+	option = {
+        name = interstate.1.a
+		log = "[GetDateText]: [This.GetName]: ushighway.1.a executed"
+	}
+}
+country_event = { ##Unlock East Coast US Highways
+	id = ushighway.2
+	title = ushighway.2.t
+	desc = ushighway.2.d
+	fire_only_once = yes
+	is_triggered_only = no
+	trigger = {
+	original_tag = ERB
+	country_exists = EEN
+	}
+
+	##answer
+	option = {
+        name = ushighway.2.a
+		set_country_flag = enc_Unlock_East_Coast_US_Highways
+		log = "[GetDateText]: [This.GetName]: ushighway.2.a executed"
+	}
+}
+
+country_event = { ##US Highway can't go on cause missing states
+	id = ushighway.3
+	title = ushighway.3.t
+	desc = ushighway.3.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+	original_tag = ERB
+	}
+
+	##test answer
+	option = {
+        name = ushighway.3.a
+		log = "[GetDateText]: [This.GetName]: ushighway.3.a executed"
+	}
+}
+
+country_event = { ##US Highway can't go on western side but can on eastern
+	id = ushighway.4
+	title = ushighway.4.t
+	desc = ushighway.4.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+	original_tag = ERB
+	}
+
+	##test answer
+	option = {
+        name = ushighway.4.a
+		log = "[GetDateText]: [This.GetName]: ushighway.4.a executed"
+	}
+}
+
+country_event = { ##Unlock MidWest US Highways
+	id = ushighway.5
+	title = ushighway.5.t
+	desc = ushighway.5.d
+	fire_only_once = yes
+	is_triggered_only = no
+	trigger = {
+	original_tag = ERB
+	country_exists = TCE
+	}
+
+	##answer
+	option = {
+        name = ushighway.5.a
+		set_country_flag = enc_Unlock_Midwestern_US_Highways
+		log = "[GetDateText]: [This.GetName]: ushighway.5.a executed"
+	}
+}
+
+country_event = { ##Unlock Gulf US Highways
+	id = ushighway.6
+	title = ushighway.6.t
+	desc = ushighway.6.d
+	fire_only_once = yes
+	is_triggered_only = no
+	trigger = {
+	original_tag = ERB
+	country_exists = BGF
+	}
+
+	##answer
+	option = {
+        name = ushighway.6.a
+		set_country_flag = enc_Unlock_Gulf_US_Highways
+		log = "[GetDateText]: [This.GetName]: ushighway.6.a executed"
+	}
+}
+
+country_event = { ##Unlock New England US Highways
+	id = ushighway.7
+	title = ushighway.7.t
+	desc = ushighway.7.d
+	fire_only_once = yes
+	is_triggered_only = no
+	trigger = {
+	original_tag = ERB
+	country_exists = MNM
+	}
+
+	##answer
+	option = {
+        name = ushighway.7.a
+		set_country_flag = enc_Unlock_New_England_US_Highways
+		log = "[GetDateText]: [This.GetName]: ushighway.7.a executed"
+	}
+}
+

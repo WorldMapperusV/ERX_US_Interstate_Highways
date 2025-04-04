@@ -1,0 +1,32 @@
+ERB_Southwest_Commonwealth_US_Highways_Category = {
+	icon = political_actions
+	picture = generic_political_actions
+	visible_when_empty = yes
+
+	visible = {
+		OR = {
+			AND = {
+				has_completed_focus =  enc_South_West_Commonwealth_US_Highways_unlock
+			}
+		}
+
+	}
+	priority = 993
+}
+
+ERB_Northwest_Commonwealth_US_Highways_Category = {
+	icon = political_actions
+	picture = generic_political_actions
+	visible_when_empty = yes
+
+	visible = {
+		OR = {
+			AND = {
+				has_completed_focus =  enc_North_West_Commonwealth_US_Highways_unlock
+			}
+		}
+
+	}
+	priority = 992
+}
+

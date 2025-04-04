@@ -1,0 +1,128 @@
+add_namespace = interstate
+
+
+#Test
+country_event = {
+	id = interstate.1
+	title = interstate.1.t
+	desc = interstate.1.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = ERB
+	}
+
+	##answer
+	option = {
+        name = interstate.1.a
+		log = "[GetDateText]: [This.GetName]: interstate.1.a executed"
+	}
+}
+
+country_event = {#Western Highway State Patrol
+	id = interstate.2
+	title = interstate.2.t
+	desc = interstate.2.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = ERB
+	}
+
+	##answer
+	option = {
+        name = interstate.2.a
+		add_stability = 0.1
+		log = "[GetDateText]: [This.GetName]: interstate.2.a executed"
+	}
+}
+
+country_event = { ##Unlock East Coast Interstate Highways
+	id = interstate.3
+	title = interstate.3.t
+	desc = interstate.3.d
+	fire_only_once = yes
+	is_triggered_only = no
+	trigger = {
+	original_tag = ERB
+	country_exists = EEN
+	}
+
+	##answer
+	option = {
+        name = interstate.3.a
+		set_country_flag = enc_Unlock_East_Interstate
+		log = "[GetDateText]: [This.GetName]: interstate.2.a executed"
+	}
+}
+
+country_event = { ##Eastern Highway State Patrol
+	id = interstate.4
+	title = interstate.4.t
+	desc = interstate.4.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+	original_tag = ERB
+	}
+
+	##test answer
+	option = {
+        name = interstate.2.a
+		add_stability = 0.1
+		log = "[GetDateText]: [This.GetName]: interstate.3.a executed"
+	}
+}
+
+country_event = { ##Interstate can't go on cause missing states
+	id = interstate.5
+	title = interstate.5.t
+	desc = interstate.5.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+	original_tag = ERB
+	}
+
+	##test answer
+	option = {
+        name = interstate.5.a
+		log = "[GetDateText]: [This.GetName]: interstate.5.a executed"
+	}
+}
+
+country_event = { ##Interstate can't go on western side but can on eastern
+	id = interstate.6
+	title = interstate.6.t
+	desc = interstate.6.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+	original_tag = ERB
+	}
+
+	##test answer
+	option = {
+        name = interstate.3.a
+		log = "[GetDateText]: [This.GetName]: interstate.3.a executed"
+	}
+}
+
+country_event = { ##Unlock MidWest Interstate Highways
+	id = interstate.7
+	title = interstate.7.t
+	desc = interstate.7.d
+	fire_only_once = yes
+	is_triggered_only = no
+	trigger = {
+	original_tag = ERB
+	country_exists = TCE
+	}
+
+	##answer
+	option = {
+        name = interstate.3.a
+		set_country_flag = enc_Unlock_Midwest_Interstate
+		log = "[GetDateText]: [This.GetName]: interstate.3.a executed"
+	}
+}

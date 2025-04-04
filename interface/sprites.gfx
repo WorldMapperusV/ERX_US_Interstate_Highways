@@ -1,0 +1,225 @@
+spriteTypes = {
+
+### IDEAS
+
+
+	spriteType = {
+		name = "GFX_idea_GFX_Eastern_Highway_State_Patrol"
+		texturefile = "gfx/ideas/EastHighway.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GFX_Western_Highway_State_Patrol"
+		texturefile = "gfx/ideas/WestHighway.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_GFX_I2"
+		texturefile = "gfx/interface/decisions/interstate/I2.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_GFX_I5"
+		texturefile = "gfx/interface/decisions/interstate/I5.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_GFX_I8"
+		texturefile = "gfx/interface/decisions/interstate/I8.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_GFX_I10"
+		texturefile = "gfx/interface/decisions/interstate/I10.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_GFX_I11"
+		texturefile = "gfx/interface/decisions/interstate/I11.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_GFX_I14"
+		texturefile = "gfx/interface/decisions/interstate/I14.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_GFX_I15"
+		texturefile = "gfx/interface/decisions/interstate/I15.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_GFX_I17"
+		texturefile = "gfx/interface/decisions/interstate/I17.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_GFX_I19"
+		texturefile = "gfx/interface/decisions/interstate/I19.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_GFX_I20"
+		texturefile = "gfx/interface/decisions/interstate/I20.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_GFX_I25"
+		texturefile = "gfx/interface/decisions/interstate/I25.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_GFX_I27"
+		texturefile = "gfx/interface/decisions/interstate/I27.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_GFX_I29"
+		texturefile = "gfx/interface/decisions/interstate/I29.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_GFX_I30"
+		texturefile = "gfx/interface/decisions/interstate/I30.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_GFX_I35"
+		texturefile = "gfx/interface/decisions/interstate/I35.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_GFX_I37"
+		texturefile = "gfx/interface/decisions/interstate/I37.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_GFX_I39"
+		texturefile = "gfx/interface/decisions/interstate/I39.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_GFX_I41"
+		texturefile = "gfx/interface/decisions/interstate/I41.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_GFX_I40"
+		texturefile = "gfx/interface/decisions/interstate/I40.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_GFX_I44"
+		texturefile = "gfx/interface/decisions/interstate/I44.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_GFX_I45"
+		texturefile = "gfx/interface/decisions/interstate/I45.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_GFX_I57"
+		texturefile = "gfx/interface/decisions/interstate/I57.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_GFX_I64"
+		texturefile = "gfx/interface/decisions/interstate/I64.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_GFX_I66"
+		texturefile = "gfx/interface/decisions/interstate/I66.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_GFX_I70"
+		texturefile = "gfx/interface/decisions/interstate/I70.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_GFX_I71"
+		texturefile = "gfx/interface/decisions/interstate/I71.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_GFX_I76"
+		texturefile = "gfx/interface/decisions/interstate/I76.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_GFX_I80"
+		texturefile = "gfx/interface/decisions/interstate/I80.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_GFX_I82"
+		texturefile = "gfx/interface/decisions/interstate/I82.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_GFX_I86"
+		texturefile = "gfx/interface/decisions/interstate/I86.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_GFX_I88"
+		texturefile = "gfx/interface/decisions/interstate/I88.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_GFX_I90"
+		texturefile = "gfx/interface/decisions/interstate/I90.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_GFX_I94"
+		texturefile = "gfx/interface/decisions/interstate/I94.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_GFX_I96"
+		texturefile = "gfx/interface/decisions/interstate/I96.dds"
+	}
+	
+	### US Highways ###
+
+	spriteType = {
+		name = "GFX_decision_GFX_US1"
+		texturefile = "gfx/interface/decisions/ushighways/US1.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_GFX_US2"
+		texturefile = "gfx/interface/decisions/ushighways/US2.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_GFX_US3"
+		texturefile = "gfx/interface/decisions/ushighways/US3.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_GFX_US4"
+		texturefile = "gfx/interface/decisions/ushighways/US4.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_GFX_US5"
+		texturefile = "gfx/interface/decisions/ushighways/US5.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_GFX_US6"
+		texturefile = "gfx/interface/decisions/ushighways/US6.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_GFX_US7"
+		texturefile = "gfx/interface/decisions/ushighways/US7.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_GFX_US8"
+		texturefile = "gfx/interface/decisions/ushighways/US8.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_GFX_US9"
+		texturefile = "gfx/interface/decisions/ushighways/US9.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_GFX_US10"
+		texturefile = "gfx/interface/decisions/ushighways/US10.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_GFX_US50"
+		texturefile = "gfx/interface/decisions/ushighways/US50.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_GFX_US101"
+		texturefile = "gfx/interface/decisions/ushighways/US101.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_GFX_US190"
+		texturefile = "gfx/interface/decisions/ushighways/US190.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_GFX_US191"
+		texturefile = "gfx/interface/decisions/ushighways/US191.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_GFX_US192"
+		texturefile = "gfx/interface/decisions/ushighways/US192.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_GFX_US195"
+		texturefile = "gfx/interface/decisions/ushighways/US195.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_GFX_US197"
+		texturefile = "gfx/interface/decisions/ushighways/US197.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_GFX_US199"
+		texturefile = "gfx/interface/decisions/ushighways/US199.dds"
+	}
+}

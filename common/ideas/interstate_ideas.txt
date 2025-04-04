@@ -1,0 +1,97 @@
+ideas = {
+	country = {
+		ERB_Western_State_Patrol = {
+
+			picture = GFX_Western_Highway_State_Patrol ##icona?
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			cancel = { always = no }
+
+			modifier = {
+				monthly_population = 0.05 #INCREASE WITH EACH STATE PATROL RESTORED
+				stability_weekly = 0.02 #INCREASE WITH EACH STATE PATROL RESTORED
+			}
+		}
+	}
+	country = {
+		ERB_Western_State_Patrol_2 = {
+
+			picture = GFX_Western_Highway_State_Patrol ##icona?
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			cancel = { always = no }
+
+			modifier = {
+				monthly_population = 0.10 #INCREASE WITH EACH STATE PATROL RESTORED
+				stability_weekly = 0.04 #INCREASE WITH EACH STATE PATROL RESTORED
+			}
+		}
+	}
+	country = {
+		ERB_Western_State_Patrol_3 = {
+
+			picture = GFX_Western_Highway_State_Patrol ##icona?
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			cancel = { always = no }
+
+			modifier = {
+				monthly_population = 0.15 #INCREASE WITH EACH STATE PATROL RESTORED
+				stability_weekly = 0.06 #INCREASE WITH EACH STATE PATROL RESTORED
+			}
+		}
+	}
+	country = {
+		ERB_Western_State_Patrol_4 = {
+
+			picture = GFX_Western_Highway_State_Patrol ##icona?
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			cancel = { always = no }
+
+			modifier = {
+				monthly_population = 0.20 #INCREASE WITH EACH STATE PATROL RESTORED
+				stability_weekly = 0.08 #INCREASE WITH EACH STATE PATROL RESTORED
+			}
+		}
+	}
+	country = {
+		ERB_Eastern_State_Patrol = {
+
+			picture = GFX_Eastern_Highway_State_Patrol ##Icona?
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			cancel = { always = no }
+
+			modifier = {
+				local_resources_factor = 0.05  #INCREASE WITH EACH STATE PATROL RESTORED
+			}
+		}
+	}
+	country = {
+		ERB_Eastern_State_Patrol_2 = {
+
+			picture = GFX_Eastern_Highway_State_Patrol ##Icona?
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			cancel = { always = no }
+
+			modifier = {
+				local_resources_factor = 0.10  #INCREASE WITH EACH STATE PATROL RESTORED
+			}
+		}
+	}
+	country = {
+		ERB_Eastern_State_Patrol_3 = {
+
+			picture = GFX_Eastern_Highway_State_Patrol ##Icona?
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			cancel = { always = no }
+
+			modifier = {
+				local_resources_factor = 0.15 #INCREASE WITH EACH STATE PATROL RESTORED
+			}
+		}
+	}
+}
