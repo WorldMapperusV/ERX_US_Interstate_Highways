@@ -6,7 +6,7 @@ ERB_Western_Highway_Patrol_Category = {
 	visible = {
 		OR = {
 			AND = {
-				has_completed_focus = enc_Western_Highway_State_Patrol
+				has_completed_focus = enc_interstate_redevelopment_office
 			}
 		}
 
@@ -21,7 +21,7 @@ ERB_Eastern_Highway_Patrol_Category = {
 	visible = {
 		OR = {
 			AND = {
-				has_completed_focus = enc_Eastern_Highway_State_Patrol
+				has_completed_focus = enc_interstate_redevelopment_office
 			}
 		}
 
@@ -36,7 +36,7 @@ ERB_Texas_Interstate_Category = {
 	visible = {
 		OR = {
 			AND = {
-				has_completed_focus = enc_Interstate_Texas_unlock
+				has_completed_focus = enc_interstate_redevelopment_office
 			}
 		}
 
@@ -51,7 +51,7 @@ ERB_West_Coast_Interstate_1_Category = {
 	visible = {
 		OR = {
 			AND = {
-				has_completed_focus = enc_Interstate_West_Coast_unlock
+				has_completed_focus = enc_interstate_redevelopment_office
 			}
 		}
 
@@ -66,7 +66,7 @@ ERB_West_Coast_Interstate_2_Category = {
 	visible = {
 		OR = {
 			AND = {
-				has_completed_focus = enc_Interstate_West_Coast_unlock
+				has_completed_focus = enc_interstate_redevelopment_office
 			}
 		}
 
@@ -81,7 +81,7 @@ ERB_West_Coast_Interstate_Arizona_Category = {
 	visible = {
 		OR = {
 			AND = {
-				has_completed_focus = enc_Interstate_West_Coast_unlock
+				has_completed_focus = enc_interstate_redevelopment_office
 			}
 		}
 
@@ -96,7 +96,7 @@ ERB_Mexico_Interstate_Category = {
 	visible = {
 		OR = {
 			AND = {
-				has_completed_focus = enc_Interstate_Mexico_unlock
+				has_completed_focus = enc_interstate_redevelopment_office
 			}
 		}
 
@@ -111,7 +111,7 @@ ERB_North_Commonwealth_Interstate_Category = {
 	visible = {
 		OR = {
 			AND = {
-				has_completed_focus = enc_Interstate_North_Commonwealth_unlock
+				has_completed_focus = enc_interstate_redevelopment_office
 			}
 		}
 
@@ -127,7 +127,7 @@ ERB_Eastern_Interstate_Category = {
 		OR = {
 			AND = {
 				has_country_flag =  enc_Unlock_East_Interstate
-				has_completed_focus = enc_Interstate_East_Coast_unlock
+				has_completed_focus = enc_interstate_redevelopment_office
 			}
 		}
 
@@ -142,7 +142,7 @@ ERB_Utah_Interstate_Category = {
 	visible = {
 		OR = {
 			AND = {
-				has_completed_focus =  enc_Interstate_Utah_unlock
+				has_completed_focus =  enc_interstate_redevelopment_office
 			}
 		}
 
@@ -157,7 +157,7 @@ ERB_Cascadia_Interstate_Category = {
 	visible = {
 		OR = {
 			AND = {
-				has_completed_focus =  enc_Interstate_Cascadia_unlock
+				has_completed_focus =  enc_interstate_redevelopment_office
 			}
 		}
 
@@ -173,7 +173,7 @@ ERB_Midwest_Interstate_Category = {
 		OR = {
 			AND = {
 				has_country_flag =  enc_Unlock_Midwest_Interstate
-				has_completed_focus =  enc_Interstate_Midwest_unlock
+				has_completed_focus =  enc_interstate_redevelopment_office
 			}
 		}
 

@@ -6,7 +6,7 @@ ERB_Southwest_Commonwealth_US_Highways_Category = {
 	visible = {
 		OR = {
 			AND = {
-				has_completed_focus =  enc_South_West_Commonwealth_US_Highways_unlock
+				has_completed_focus =  enc_interstate_redevelopment_office
 			}
 		}
 
@@ -22,7 +22,7 @@ ERB_Northwest_Commonwealth_US_Highways_Category = {
 	visible = {
 		OR = {
 			AND = {
-				has_completed_focus =  enc_North_West_Commonwealth_US_Highways_unlock
+				has_completed_focus =  enc_interstate_redevelopment_office
 			}
 		}
 
